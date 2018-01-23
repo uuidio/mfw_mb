@@ -97,7 +97,7 @@ img{border: none;}
 
 .nav_1 ul{
   width:100%;
-  height:4.04rem;}
+  height:3.6rem;}
 
 a.active{
   border-bottom:2px #007acc solid;
