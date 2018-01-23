@@ -1,0 +1,267 @@
+/*wrap*/
+.wrap{
+  min-width:320px; 
+  max-width:540px; 
+  margin:0 auto;}
+
+/*头部*/
+.header{
+  width:100%; 
+  height:50px; 
+  border-bottom:1px solid #e5e5e5; 
+  position:relative; 
+  overflow:hidden;}
+
+.header a i{
+  width:10px; 
+  height:10px; 
+  display:block; 
+  border:2px solid #f29406; 
+  border-right:0; 
+  border-bottom:0; 
+  transform:rotate(-45deg); 
+  position:absolute; 
+  top:18px; 
+  left:16px;}
+
+.logo{
+  width:81px; 
+  height:21px; 
+  background:url(../images/logo.png) no-repeat; 
+  background-size:81px auto; 
+  margin:15px auto;}
+
+.header a:nth-of-type(2){
+  line-height:18px; 
+  font-size:12px; 
+  color:#ffa800; 
+  position:absolute; 
+  top:15px; 
+  right:16px;}
+
+.nav{
+  width:100%; 
+  background-color:#ff9d00;}
+
+.nav ul{
+  width:100%; 
+  height:16px; 
+  padding:13px 0;}
+
+.nav ul li{
+  float:left; 
+  width:25%; 
+  border-left:1px solid #fff; 
+  box-sizing:border-box; 
+  line-height:16px;  
+  text-align:center;  
+  display:block;}
+
+.nav ul li:nth-of-type(1){
+  border-left:0;}
+
+.nav ul li a{
+  font-size:12px; 
+  color:#fff; 
+  display:block;}
+
+/*banner*/
+.banner{
+  width:100%; 
+  height:148px; 
+  background:url(../images/jiuyue.png) no-repeat; 
+  background-size:100% auto;}
+
+.focus{ 
+  width:100%; 
+  height:auto;  
+  margin:0 auto; 
+  position:relative; 
+  overflow:hidden;}
+.focus .hd{ 
+  width:100%; 
+  height:5px;  
+  position:absolute; 
+  z-index:1; 
+  bottom:0; 
+  text-align:center;}
+
+.focus .hd ul{ 
+  overflow:hidden; 
+  display:-moz-box; 
+  display:-webkit-box; 
+  display:box; 
+  height:5px; 
+  background-color:rgba(51,51,51,0.5);}
+
+.focus .hd ul li{
+ -moz-box-flex:1; 
+ -webkit-box-flex:1; 
+ box-flex:1;}
+
+.focus .hd ul .on{ 
+  background:#FF4000;}
+
+.focus .bd{ 
+  position:relative; 
+  z-index:0; }
+
+.focus .bd li img{ 
+  width:100%;  
+  height:auto; }
+
+.focus .bd li a{ 
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+
+/*main*/
+.main{
+  width:100%; 
+  padding:6px 10px 0 10px; 
+  box-sizing:border-box;}
+
+.main-top{
+  width:100%; 
+  height:46px; 
+  border-bottom:1px solid #eeeeee;}
+
+.main-top h3{
+  float:left; 
+  font-weight:normal; 
+  font-size:16px;
+  color:#333333;    
+  line-height:16px;
+  padding-left:6px; 
+  border-left:4px solid #f29406;
+  margin-top:14px;}
+
+.main-top a{
+  float:right; 
+  font-size:12px; 
+  color:#9595a3; 
+  line-height:46px;}
+
+.main ul li{
+  width:100%; 
+  padding:15px 0 15px 120px;  
+  box-sizing:border-box; 
+  position:relative; 
+  border-bottom:1px solid #eeeeee;
+  min-height:112px;}
+
+.main ul li figure{
+  width:120px; 
+  height:82px; 
+  position:absolute; 
+  top:16px; 
+  left:0;}
+
+.you{
+  width:100%; 
+  padding-left:0.4rem; 
+  box-sizing:border-box;}
+
+.main ul li p{
+  font-size:12px;
+  color:#333333; 
+  line-height:20px; 
+  padding-bottom:5px;  
+  display:block;}
+
+.main ul li p span{
+  color:#f29406;}
+
+.jiage{
+  width:100%; 
+  height:18px; 
+  line-height:18px;}
+
+.jiage span{
+  font-size:18px; 
+  color:#f29406; 
+  vertical-align:middle; 
+  display:block; 
+  float:left;}
+
+.jiage i{
+  float:left; 
+  width:31px; 
+  height:18px; 
+  background-color:#f29406;
+  font-size:10px; 
+  color:#fff;  
+  text-align:center; 
+  margin-left:5px; 
+  margin-right:9px; 
+  display:block;}
+
+.jiage i span{
+  font-size:6px; 
+  color:#fff;}
+
+.jiage del{
+  float:left;
+  font-size:10px; 
+  color:#bbbbbb; 
+  display:block;}
+
+.xinpin{
+  font-size:10px; 
+  color:#bbbbbb;  
+  line-height:19px; 
+  text-align:right;}
+
+.ct{
+  width:104px; 
+  height:33px; 
+  border:1px solid #e5e5e5; 
+  border-radius:5px;
+  color:#f39c11; 
+  margin:0 auto;  
+  line-height:33px; 
+  text-align:center; 
+  font-size:12px; 
+  margin-top:19px;
+  margin-bottom:50px;}
+
+/*footer*/
+.footer{
+  width:100%; 
+  height:50px;
+  position:fixed;
+  left:0;
+  bottom:0;
+  background:#fff;}
+
+.footer ul li{
+  float:left; 
+  width:50%; 
+  height:50px; 
+  line-height:50px; 
+  text-align:center;}
+
+.footer ul li a{
+  font-size:14px; 
+  color:#666; 
+  display:block;}
+
+.footer ul li a span{
+  width:19px; 
+  height:20px; 
+  display:inline-block; 
+  background:url(../images/btn_nav2.png) no-repeat; 
+  background-size:20px auto; 
+  vertical-align:middle; 
+  margin-top:-3px; 
+  margin-right:12px;}
+
+.footer ul li:nth-of-type(2) a span{ 
+  width: 16px;  
+  height: 19px; 
+  background-position:-2px -21px; 
+  vertical-align:middle; margin-top:-2px;}
+
+
+
+
+
+

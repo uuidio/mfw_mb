@@ -1,0 +1,261 @@
+/* 
+* @Author: anchen
+* @Date:   2016-07-24 14:20:09
+* @Last Modified by:   anchen
+* @Last Modified time: 2016-07-30 21:23:57
+*/
+.header{
+    height: 50px;
+    position:relative;
+    overflow:hidden;
+    }
+
+.logo{
+    width: 80px;
+    height: 20px;
+    background:url(../images/logo.png) no-repeat;
+    background-size:76px auto;
+    margin:15px auto;
+    }
+
+.logo a{
+    display:block;
+    height:76px;
+    text-indent:-999em;
+    }
+
+ a.back{
+    display:block;
+    position:relative;
+    position:absolute;
+    top:16px;
+    left:8px;
+    }
+
+.back em,.back span{
+    width:0;
+    height:0;
+    border-width:9px;
+    border-color:transparent #ff9d00 transparent transparent ;
+    border-style:dashed solid dashed dashed ;
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    }
+
+.back span{
+    border-right-color:#fff;
+    left:4px;
+    }
+
+.work{
+    display:block;
+    width: 40px;
+    height: 30px;
+    background: #41c6ad;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius:  50%;
+    position:absolute;
+    right:0px;
+    top:10px;
+    line-height: 26px;
+    }
+
+.work em{
+    font-size: 12px;
+    color:#fff;
+    margin-left:10px;
+    }
+
+nav{
+    height:42px;
+    background:#ff9d00;
+    padding-top:11px;
+    box-sizing: border-box;
+    }
+
+nav ul li{
+    float:left;
+    width:25%;
+    line-height: 16px;
+    }
+
+nav ul li a{
+    border-right:#fff solid 1px;
+    display:inline-block;
+    width:100%;
+    font-size: 16px;
+    text-align:center;
+    box-sizing: border-box;
+    color:#fff;
+    }
+
+nav ul li:nth-of-type(4) a{
+    border-right:0;
+    }
+
+.search{
+    width:100%;
+    height:50px;
+    padding:10px;
+    box-sizing: border-box;
+    border-bottom: #e5e5e5 solid 1px;
+    position:relative;
+    }
+
+.search input{
+    width:100%;
+    display:block;
+    height:30px;
+    background: #f0f0f0;
+    border-radius: 4px;
+    }
+
+.search span{
+    width:18px;
+    height:18px;
+    display: block;
+    background:url(../images/new-ask-icon2.png) no-repeat;
+    background-size:50px auto ;
+    position:absolute;
+    top:17px;
+    left:17px;
+    }
+
+section div h3{
+    font-size: 16px;
+    font-weight: normal;
+    color:#111111;
+    margin-bottom: 10px;
+
+    }
+
+section .wenda{
+    border-bottom:#e5e5e5 solid 1px;
+    }
+
+section .wenda .wenda-in{
+    padding:12px;
+    box-sizing: border-box;
+    }
+
+section .wenda .wenda-in .wenda-in-in{
+    position:relative;
+    padding-left:50px;
+    }
+
+section .wenda .wenda-in p{
+    font-size: 13px;
+    margin-top:10px;
+    }
+
+section div .touxiang{
+    width: 34px;
+    height: 34px;
+    display:block;
+    float:left;
+    background:url(../images/wKgB3FICDVOAPIyNAACpiiVoxB006.head.w48.jpeg) no-repeat;
+    background-size:34px auto ;
+    border-radius: 50%;
+    position:absolute;
+    top:0;
+    left:0;
+    }
+
+.jinpaiwenda{
+    text-align: center;
+    width:80px;
+    height:20px;
+    border-radius: 50%;
+    background: #ff9d00;
+    display:block;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 10px;
+    line-height: 20px;
+    color:#fff;
+    }
+
+.jinpaiwenda span{
+    display:inline-block;
+    width: 15px;
+    height: 15px;
+    background:url(../images/new-ask-icon2.png) no-repeat;
+    background-position: 0 -95px;
+    background-size:50px auto;
+    vertical-align: middle;
+    margin-top:-4px;
+    margin-right:2px;
+    }
+
+.massage{
+    font-size: 12px;
+    margin-top:10px;
+    }
+
+.massage span i{
+    display:inline-block;
+    width: 15px;
+    height: 16px;
+    background:url(../images/new-ask-icon2.png) no-repeat;
+    background-position: -35px 0;
+    background-size:50px auto;
+    vertical-align: middle;
+    margin-top:-4px;
+    margin-right:2px;
+    }
+
+.massage span:nth-of-type(2){
+    float:right;
+    }
+
+.loadmore{
+    height:68px;
+    text-align: center;
+    font-size: 14px;
+    color:#999999;
+    padding:14px;
+    height:34px;
+    line-height: 34px;
+}
+
+.loadmore div{
+    background: #f0f0f0;
+    border-radius:4px;
+
+}
+
+.askmore{
+    width:100%;
+    height:54px;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    line-height:34px;
+    position:fixed;
+    bottom: 0;
+    background: #fff;
+    max-width: 540px;
+}
+
+.askmore div{
+    width:80%;
+    height:34px;
+    background:#ffa800;
+    border-radius:4px;
+    margin:10px auto;
+}
+
+
+
+
+    
+
+
+
+
+
+

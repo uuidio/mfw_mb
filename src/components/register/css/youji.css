@@ -1,0 +1,250 @@
+/*wrap*/
+.wrap{
+  min-width:320px; 
+  max-width:540px; 
+  margin:0 auto;}
+
+/*header*/
+.header{
+  width:100%; 
+  height:50px; 
+  border-bottom:1px solid #e5e5e5; 
+  position:relative; 
+  overflow:hidden;}
+
+.header a span{
+  width:10px; 
+  height:10px; 
+  display:block; 
+  border:2px solid #f29406; 
+  border-right:0; 
+  border-bottom:0; 
+  transform:rotate(-45deg); 
+  position:absolute; 
+  top:18px; 
+  left:16px;}
+
+.logo{
+  width:81px; 
+  height:21px; 
+  background:url(../images/logo.png) no-repeat; 
+  background-size:81px auto; 
+  margin:15px auto;}
+
+.header a:nth-of-type(2){
+  line-height:18px; 
+  font-size:12px; 
+  color:#ffa800; 
+  position:absolute; 
+  top:15px; 
+  right:16px;}
+
+/*nav*/
+.nav{
+  width:100%; 
+  background-color:#ff9d00;}
+
+.nav ul{
+  width:100%; 
+  height:16px; 
+  padding:13px 0;}
+
+.nav ul li{
+  float:left;
+  width:25%; 
+  height:16px; 
+  display:block; 
+  border-left:1px solid #fff; 
+  box-sizing:border-box;
+  line-height:16px; 
+  text-align:center;}
+
+.nav ul li:nth-of-type(1){
+  border-left:0;}
+
+.nav ul li a{
+  font-size:12px; 
+  color:#fff; 
+  display:block;}
+
+/*banner*/
+.focus{ 
+  width:100%; 
+  height:200px;  
+  margin:0 auto; 
+  position:relative; 
+  overflow:hidden;}
+.focus .hd{ 
+  width:100%; 
+  height:5px;  
+  position:absolute; 
+  z-index:1; 
+  bottom:0; 
+  text-align:center;  }
+.focus .hd ul{ 
+  overflow:hidden; 
+  display:-moz-box; 
+  display:-webkit-box; 
+  display:box; 
+  height:5px; 
+  background-color:rgba(51,51,51,0.5);}
+
+.focus .hd ul li{
+ -moz-box-flex:1; 
+ -webkit-box-flex:1; 
+ box-flex:1;}
+
+
+.focus .hd ul .on{ 
+  background:#FF4000;  }
+.focus .bd{ 
+  position:relative; 
+  z-index:0; }
+.focus .bd li img{ 
+  width:100%;  
+  height:200px; }
+.focus .bd li a{ 
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
+
+.banner ul li{
+ position:relative;}
+
+.banner span{
+  width:100%; 
+  height:14px;
+  font-size:14px;  
+  color:#fff; 
+  line-height:14px; 
+  position:absolute; 
+  left:21px; 
+  bottom:17px;}
+
+/*search*/
+.search{
+  width:100%; 
+  height:44px; 
+  padding:8px 15px; 
+  box-sizing:border-box; 
+  position:relative; 
+  background:#ededed;}
+
+.search input{
+  border:0; 
+  outline:0; 
+  width:100%; 
+  height:28px; 
+  background:#fff; 
+  text-align:center;  
+  display:block;}
+
+.zhong{
+  width:100%; 
+  height:28px; 
+  padding-left:8px; 
+  box-sizing:border-box;
+  margin-top:-28px;}
+
+.zhong span{
+  color:#696969; 
+  font-size:12px; 
+  line-height:28px; 
+  display:block;}
+
+.zhong span:before{
+  content:""; 
+  width:13px; 
+  height:13px; 
+  display:inline-block; 
+  background:url(../images/search.png) no-repeat; 
+  background-size:13px 13px; 
+  margin-right:7px;  
+  vertical-align:middle; 
+  margin-top:-4px;}
+
+/*main*/
+.main{
+  width:100%; 
+  padding:0 8px; 
+  box-sizing:border-box;}
+
+.main ul{
+  width:100%;}
+
+.main ul li{
+  width:100%; 
+  border-bottom:1px solid #f2f2f2;
+  padding:8px 0 8px 106px; 
+  box-sizing:border-box; 
+  position:relative;}
+
+.main figure{
+  width:106px; 
+  height:68px;
+  display:block; 
+  position:absolute; 
+  top:8px; 
+  left:0;}
+
+.you{
+  margin-left:9px;}
+
+.you h5{
+  width:100%; 
+  font-weight:normal; 
+  font-size:14px; 
+  line-height:17px;  
+  color:#333333; 
+  padding-bottom:36px;}
+
+.xia{
+  width:100%; 
+  height:14px;}
+
+.xia-zuo{
+  float:right; 
+  width:30px; 
+  height:30px; 
+  border-radius:50%; 
+  display:inline-block; 
+  background:url(../images/toutou.jpeg) no-repeat;
+  background-size:30px 30px;
+  margin-top:-15px;}
+
+.xia-you{
+  float:left; 
+  line-height:12px; 
+  font-size:12px; 
+  color:#696969; 
+  padding-top:4px; 
+  box-sizing:border-box;}
+
+.xia-you i:nth-of-type(1),.xia-you i:nth-of-type(2){
+  display:inline-block; 
+  background:url(../images/tubiao.png) no-repeat;  
+  background-size:56px auto; 
+  margin-right:6px;  
+  vertical-align:middle; 
+  margin-top:-4px;}
+
+.xia-you i:nth-of-type(1){ 
+  width:12px; 
+  height:11px; 
+  background-position:-43px 0;}
+
+.xia-you i:nth-of-type(2){ 
+  width:14px; 
+  height:9px; 
+  background-position:-43px 0; 
+  margin-left:12px;}
+
+.ct{
+  width:104px; 
+  height:33px; 
+  border:1px solid #e5e5e5; 
+  border-radius:5px; 
+  font-size:12px; 
+  color:#f39c11;
+  line-height:33px; 
+  text-align:center;  
+  margin:0 auto; 
+  margin-top:0.68rem;}

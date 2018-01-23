@@ -1,0 +1,464 @@
+<template>
+  <div>
+    <div class="wrap">
+    <header class="header">
+        <a href="index.html"><i></i></a>
+        <div class="logo">
+             <h1><a href="" title="马蜂窝">欢迎来到马蜂窝</a></h1>
+       </div>
+        <a href="denglu.html">登录</a>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="">首页</a></li>
+            <li><a href="">目的地</a></li>
+            <li><a href="">游记</a></li>
+            <li><a href="">酒店</a></li>
+        </ul>
+    </nav>
+    <div class="ling-nav">
+        <ul>
+            <li><a href="">目的地</a><span></span></li>
+            <li><a href="">全部出发时间</a><span></span></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div><span>248255</span><span>个人旅行计划</span></div>
+        <div><span>248255</span><span>个人旅行计划</span></div>
+        <div><span>248255</span><span>个人旅行计划</span></div>
+    </div>
+    <div class="main">
+        <section class="jbnr">
+            <ul>
+                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+                                <li>
+                    <a href="">
+                    <div class="shang">
+                        <figure>
+                            <div class="xinxi">
+                                 <span>青海湖|敦煌|张掖</span>
+                                 <span>7-15天</span>
+                            </div>
+                            <span class="chufa">08月10日&nbsp;出发</span>
+                            <div class="yonghu"><span></span><i></i></div>
+                        </figure>
+                    </div>
+                    <div class="xia">
+                        <span>潇潇</span>
+                        <span><i>lv8</i>&nbsp;&nbsp;广州</span>
+                        <p>08月10号开始出发，时间和路线可以商定，目前需志同道合的...</p>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+            <div style="clear:both;"></div>
+        </section>
+    </div>
+    <div class="faqi">
+        <div class="px"><em></em>排序<i>|</i></div>
+        <button>发起结伴</button>
+    </div>
+</div>
+  </div>
+</template>
+
+<script>
+
+export default {
+}
+
+</script>
+
+<style scoped>
+.wrap{
+  min-width:320px;
+  max-width:540px;
+  margin:0 auto;}
+
+/*header*/
+.header{
+  width:100%;
+  height:50px;
+  border-bottom:1px solid #e5e5e5;
+  position:relative;
+  overflow:hidden;}
+
+.header a i{
+  width:10px;
+  height:10px;
+  display:block;
+  border:2px solid #f29406;
+  border-right:0;
+  border-bottom:0;
+  transform:rotate(-45deg);
+  position:absolute;
+  top:18px;
+  left:16px;}
+
+.logo{
+  width:81px;
+  height:21px;
+  background:url(../../assets/img/logo.png) no-repeat;
+  background-size:81px auto;
+  margin:15px auto;}
+
+.logo a{
+  font-size:12px;
+  display:block;
+  text-indent:-10000em;}
+
+.header a:nth-of-type(2){
+  font-size:12px;
+  color:#ffa800;
+  line-height:18px;
+  position:absolute;
+  top:15px;
+  right:16px;}
+
+/*nav*/
+.nav{width:100%;
+    background-color:#ff9d00;}
+
+.nav ul{
+  width:100%;
+  height:16px;
+  padding:13px 0;}
+
+.nav ul li{
+  float:left;
+  width:25%;
+  height:16px;
+  border-left:1px solid #fff;
+  box-sizing:border-box;
+  line-height:16px;
+  text-align:center;
+  display:block;}
+
+.nav ul li:nth-of-type(1){
+  border-left:0;}
+
+.nav ul li a{
+  font-size:12px;
+  color:#fff;
+  display:block;}
+
+.ling-nav{
+  width:100%;
+  box-sizing:border-box;}
+
+.ling-nav ul{
+  width:100%;
+  height:27px;
+  padding:7px 0;}
+
+.ling-nav ul li{
+  float:left;
+  width:50%;
+  height:29px;
+  border-left:1px solid #cccccc;
+  box-sizing:border-box;
+  background:#fafafa;
+  line-height:29px;
+  text-align:center;
+  display:block;
+  position:relative;}
+
+.ling-nav ul li:nth-of-type(1){
+  border-left:0;}
+
+.ling-nav ul li a{
+  font-size:12px;
+  color:#999999;
+  display:block;}
+
+.ling-nav ul li span{
+  width:8px;
+  height:8px;
+  display:block;
+  border:2px solid #cccccc;
+  border-left:0;
+  border-bottom:0;
+  transform:rotate(135deg);
+  position:absolute;
+  top:6px;
+  right:14px;}
+
+/*banner*/
+.banner{
+  width:100%;
+  height:6.4rem;
+  box-sizing:border-box;
+  background:url(../../assets/img/mohu.jpg) no-repeat;
+  background-size:100% 100%;
+  position:relative;}
+
+.banner div{
+  float:left;
+  width:33.3333333%;
+  height:6.4rem;
+  color:#fff;
+  text-align:center;
+  padding-top:2.04rem;
+  box-sizing:border-box;}
+
+.banner div span{
+  display:block;
+  font-size:0.96rem;
+  line-height:1.88rem;}
+
+.banner div span:nth-of-type(2){
+  font-size:0.4rem;
+  line-height:0.44rem;}
+
+/*main*/
+.main{
+  width:100%;
+  padding:0 10px;
+  box-sizing:border-box;}
+
+.jbnr{
+  width:100%;}
+
+.jbnr ul{
+  width:100%;}
+
+.jbnr ul li{
+  float:left;
+  width:49%;
+  border:1px solid #e6e5e5;
+  margin-top:10px;}
+
+.jbnr ul li:nth-of-type(even){
+  float:right;}
+
+.jbnr ul li figure{
+  width:100%;
+  height:6.6rem;
+  padding-top:7px;
+  padding-left:9px;
+  box-sizing:border-box;
+  position:relative;
+  background:url(../../assets/img/niu.png) no-repeat;
+  background-size:100% 100%;}
+
+.xinxi span{
+  font-size:0.64rem;
+  color:#fff;
+  line-height:1.12rem;
+  display:block;}
+
+.chufa{
+  width:104px;
+  height:18px;
+  display:block;
+  background:#41c6ad;
+  border-radius:52px 0 0 52px;
+  font-size:10px;
+  color:#fff;
+  line-height:18px;
+  text-align:center;
+  position:absolute;
+  right:0;
+  bottom:12px;}
+
+.yonghu span{
+  width:32px;
+  height:32px;
+  display:block;
+  border-radius:50%;
+  background:url(../../assets/img/lantian.png) no-repeat;
+  float:left;}
+
+.yonghu i{
+  width:16px;
+  height:17px;
+  display:block;
+  border-radius:50%;
+  background:url(../../assets/img/sprites.png) no-repeat 0 -97px;
+  background-size:50px auto;
+  margin-top:9px;
+  vertical-align:middle;
+  margin-left:8px;
+  float:left;}
+
+.yonghu{
+  position:absolute;
+  bottom:-14px;
+  left:15px;}
+
+.xia{
+  margin-top:25px;
+  padding-left:15px;
+  box-sizing:border-box;
+  min-height:75px;}
+
+.xia span:nth-of-type(1){
+  font-size:12px;
+  color:#696969;
+  display:block;
+  line-height:14px;}
+
+.xia span:nth-of-type(2){
+  font-size:10px;
+  color:#696969;
+  line-height:20px;
+  display:block;}
+
+.xia span:nth-of-type(2) i{
+  color:#fa9f00;
+  font-style:normal;}
+
+.xia p{
+  color:#a4a4a4;
+  font-size:10px;
+  line-height:14px;
+  padding-bottom:13px;}
+
+.faqi{
+  width:540px;
+  height:43px;
+  border-top:1px solid #e5e5e5;
+  background:blue;
+  padding-top:10px;
+  padding-left:80px;
+  padding-right:15px;
+  box-sizing:border-box;
+  position:relative;
+  position:fixed;
+  bottom:0;
+  margin:0 auto;}
+
+.faqi button{
+  width:100%;
+  height:32px;
+  background:#f39c11;
+  border-radius:16px;
+  line-height:32px;
+  color:#fff;
+  text-align:center;
+  display:block;}
+
+.faqi .px{
+  position:absolute;
+  top:10px;
+  left:15px;
+  font-size:12px;
+  color:#a4a4a4;
+  line-height:32px;
+  width:58px;
+  height:32px;
+  display:block;
+  margin-right:7px;}
+
+.faqi em{
+  width:16px;
+  height:16px;
+  display:block;
+  float:left;
+  background:pink;
+  margin-top:8px;
+  margin-right:6px;}
+
+.faqi i{
+  display:block;
+  color:#e5e5e5;
+  float:right;
+  font-style:normal;}
+
+
+
+</style>
